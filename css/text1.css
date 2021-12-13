@@ -1,0 +1,403 @@
+
+
+
+   *{    
+    padding: 0;
+    margin: 0;
+    
+    }
+    .container{
+    
+        width: 80%;
+        margin:auto
+        
+        
+        }
+        
+    .me{
+    
+   
+    position: fixed;
+    
+    width: 100%;
+z-index: 10;
+
+    }
+    
+    
+    .me .logo{
+    
+    
+    background-image:url(../images/logo-alt.webp);
+    width: 40%;
+    height: 80px;
+    background-repeat:no-repeat ;
+    float: left;
+    
+    }
+    
+    .me .nav {
+
+        text-align: right;  
+    }
+    
+    .me .nav  li{
+    
+    display: inline-block;
+  
+    }
+    
+    .me .nav li a.active:after,
+    .me .nav li a:after{
+content: "";
+
+display: block;
+height: 3px;
+margin-top: 2px;
+background-color: cadetblue;
+transform: width 0.5s;
+    }
+
+
+
+    .me .nav li a:after{ 
+
+        width:0 ;
+        
+        
+        
+        }
+        
+
+
+
+.me .nav li a.active:after{ 
+
+width:100%;
+
+
+
+}
+
+.go{
+
+position: relative;
+
+
+}
+
+.hi{
+
+
+position:absolute ;
+
+}
+
+
+    .me .nav li a{
+   
+    float: left;
+    text-decoration: none;
+    
+    list-style: none;
+    padding: 20px;
+    margin: 10px;
+    
+    color: #fff;
+    
+      }
+    
+    
+    
+    
+    
+    .clear{
+    
+    clear: both;
+
+    }
+
+
+.home {
+
+background-image: url(../images/background1.webp);
+ height: 100vh;
+
+background-size: cover;
+position: relative;
+
+}
+
+
+.overlay{
+    width: 100%;
+    height: 100%;
+background-color :rgba(0,0,0,0.9);
+position: absolute;
+
+}
+
+
+
+
+.home .contect{
+color: cornflowerblue;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+text-align: center;
+
+
+}
+ 
+
+h1{
+
+text-transform: capitalize;
+
+}
+p{
+
+
+font-size: 20px;
+letter-spacing: 1px;
+}
+
+.home .btn{
+
+    margin-left:20px ;
+    padding: 20px;
+    width: 180px;
+    border-radius: 5px;
+    border: 0;
+cursor: pointer;
+font-size: 20px;
+
+}
+
+.home .btn-start{
+
+
+background-color: cornsilk;
+
+}
+
+
+.home .btn-home1{
+
+background: blue;
+color: cornsilk;
+
+    
+    }
+
+
+.home .opcity-hover:hover{
+
+opacity: 0.9;
+
+
+    }
+    
+
+.opcity-hover{
+transition: opacity .9s ;
+        
+   }
+            
+            
+
+
+
+
+
+
+   .section-header{
+
+    text-align: center;
+    
+    
+    
+    }
+    .section-header .section-title{
+    
+    
+    text-transform: capitalize;
+    font-size: 50px;
+    
+      }
+    
+    .section-header .line{
+    
+    display: block;
+    height: 10px;
+    width: 80px;
+    background-color: rgb(50, 42, 165);
+    margin:0  auto   70px  auto  ;
+        }
+    
+    
+        .pd-y{
+    
+    padding: 120px;
+    
+        }
+    
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+.maged {
+
+
+
+text-align: center;
+
+
+
+}
+
+
+
+.maged .hi{
+
+font-size: 50px;
+
+}
+
+.maged .ahmed{
+display: block;
+width: 60px;
+height: 5px;
+background-color: cyan;
+margin:  0 auto 120px auto;
+}
+
+
+
+.fff .maged{
+
+
+float: left;
+width: 30%;
+text-align: center;
+border: solid 1px;
+padding: 5px;
+font-size: 20px;
+margin: 5px;
+
+}
+
+.fff .maged{
+
+margin-left: 10px;
+margin-right: 10px;
+
+}
+.fff .maged i{
+
+color: steelblue;
+padding: 20px;
+margin: 20px;
+font-size: 100px;
+
+ }
+
+
+
+.fff .maged a{
+
+
+text-decoration: none;
+font-size: 30px;
+font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+}
+
+.fff .ggg-hhh{
+
+position: relative;
+
+
+}
+.ggg-hhh:after{
+     content: "";
+position: absolute;
+width: 0;
+top:0;
+left: 0;
+right: 0;
+bottom: 0;
+background: black;
+z-index: -3;
+transition: 0.9s;
+
+
+
+
+}
+
+ .ggg-hhh:hover:after{
+
+width: 100%;
+
+}
+
+
+.fff .maged:hover h1,p{
+
+color: blanchedalmond;
+  }
+.clear{
+
+
+clear: both;
+
+}
+
+.work{
+
+
+text-align: center;
+margin-top: 50p;
+font-size: 50px;
+position:relative;
+padding: 120px;
+
+}
+
+.work .bbb{
+display: block;
+background: cornflowerblue;
+margin: auto;
+width: 80px;
+height: 5px;
+
+
+}
+   
+.work{
+
+overflow: hidden;
+
+}
+
+
+.photo .img{
+
+float: left;
+width: 30%;
+
+
+}
+
